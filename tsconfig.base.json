@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-project/orders": ["modules/orders/src/index.ts"],
+      "@nx-project/products": ["modules/products/src/index.ts"],
+      "@nx-project/ui": ["modules/shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
